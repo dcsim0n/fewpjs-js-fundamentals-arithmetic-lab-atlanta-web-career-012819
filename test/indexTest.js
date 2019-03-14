@@ -10,7 +10,7 @@ describe('index.js', function() {
     });
   });
   describe('random', function() {
-    it("is generates a random integer greater than 0", function() {
+    it("it generates a random integer greater than 0", function() {
       expect(random).to.be.a('number')
       expect(random).to.not.eq(0)
     });
